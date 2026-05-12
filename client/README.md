@@ -1,16 +1,66 @@
-# React + Vite
+# Nyaya AI: Civil Rights Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nyaya AI is a specialized AI-powered application designed to provide information and guidance on civil rights. Built as a cross-platform solution, it offers a seamless experience on both Web and Android devices.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **AI Legal Guidance**: Provides instant responses to queries regarding civil rights and legal procedures.
+- **Cross-Platform**: Built using the MERN stack for the web and Capacitor for a native Android experience.
+- **Voice Integration**: Designed for ease of use with mobile-first interactions.
+- **Responsive UI**: Optimized full-screen layout for both desktop monitors and mobile screens.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React.js, Vite, Capacitor.
+- **Backend**: Node.js, Express.
+- **AI Integration**: Gemini API.
+- **Styling**: Modern CSS3 with responsive viewport-fit designs.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📥 How to Import and Setup
+
+Follow these steps to get the project running on your local machine:
+
+### 1. Clone the Repository
+
+````bash
+git clone [https://github.com/Raj-Anil-Shirke/civil-rights-ai.git](https://github.com/Raj-Anil-Shirke/civil-rights-ai.git)
+cd civil-rights-ai
+2. Setup the Backend
+Open a terminal in the root folder.
+
+Install dependencies:
+
+Bash
+npm install
+Create a .env file and add your API keys:
+
+Code snippet
+GEMINI_API_KEY=your_key_here
+PORT=5000
+Start the server:
+
+Bash
+node server.js
+
+
+### 3. Setup the Frontend
+1. Open a new terminal and navigate to the `client` folder:
+   ```bash
+   cd client
+   npm install
+Start the development server:
+
+Bash
+npm run dev -- --host
+
+
+### 4. Running on Android (Optional)
+1. Ensure you have **Android Studio Panda 4** installed.
+2. Sync the project with Capacitor:
+   ```bash
+   npx cap sync android
+
+Open the android folder in Android Studio and run it on your device.
+````
