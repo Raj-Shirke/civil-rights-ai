@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@langchain/google-genai": "^2.1.30",
+    "@langchain/openai": "^0.0.28",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.1.36",
+    "mongoose": "^8.3.4"
+  }
+}
